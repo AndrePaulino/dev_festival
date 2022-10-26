@@ -1,0 +1,91 @@
+/* Body */
+body {
+	background-color: #01011c;
+}
+
+/* Header */
+header .menu ul a {
+	font-family: Poppins;
+	font-weight: 400;
+	font-size: 19px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+header {
+}
+
+/* Typography */
+.title {
+	font-family: Poppins;
+	color: #ffffff;
+}
+
+.title.one {
+	font-size: 90px;
+	font-weight: 700;
+}
+
+.title.two {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+.title.threehalf {
+	font-size: 28px;
+	font-weight: 700;
+}
+
+.title3.three {
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.title.four {
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.content-box p {
+	font-family: Poppins;
+	font-size: 19px;
+	font-weight: 400;
+	color: #ffffff;
+}
+
+.blue-text {
+	color: #0000ff;
+}
+/* Buttons */
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Poppins;
+	font-size: 18px;
+	font-weight: 700;
+	height: 60px;
+	border-radius: 255px;
+	transition: 0.4s;
+}
+
+.btn.solid {
+	background: #0000ff;
+	color: #ffffff;
+	border: 2px solid #0000ff;
+}
+
+.btn.solid:hover {
+	background: #4444ff;
+	border-color: #4444ff;
+}
+
+.btn.outline {
+	background: transparent;
+	color: #a5a5ff;
+	border: 2px solid #a5a5ff;
+}
+.btn.outline:hover {
+	background: #a5a5ff;
+	color: #ffffff;
+}
