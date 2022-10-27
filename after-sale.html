@@ -31,7 +31,7 @@
 								<a href="/index.html#sobre"> Sobre </a>
 							</li>
 						</ul>
-						<a class="btn outline" href="/carrinho.html">
+						<a class="btn outline" href="/cart.html">
 							Quero meu ingresso</a
 						>
 						<button>
@@ -47,12 +47,16 @@
 				<div class="flex-box">
 					<h1 class="title two">Compra realizada com sucesso!</h1>
 					<div class="ticket">
-						<h2 class="title two">José da Silva</h2>
-						<p class="title three">josedasilva@email.com</p>
+						<h2 id="nome" class="title two">%s</h2>
+						<p id="email" class="title three">%s</p>
 						<div class="quantity-box">
 							<p class="title threehalf">
 								Ingressos para
-								<span class="lightblue-text">3</span>
+								<span
+									id="ticket-quantity"
+									class="lightblue-text"
+									>%s</span
+								>
 								pessoas
 							</p>
 						</div>
@@ -65,4 +69,5 @@
 			</div>
 		</section>
 	</body>
+	<script src="./ticket.js"></script>
 </html>

@@ -53,12 +53,13 @@
 								</h3>
 								<div>
 									<div class="controls">
-										<button>-</button>
-										<span>1</span>
-										<button>+</button>
+										<button id="remove-ticket">-</button>
+										<span id="ticket-number">1</span>
+										<button id="add-ticket">+</button>
 									</div>
 									<p class="title three">
-										R$ 90.00 por pessoa
+										R$
+										<span id="ticket-price">90</span>
 									</p>
 								</div>
 							</li>
@@ -68,7 +69,7 @@
 						<h2 class="title three pad20-bottom">
 							Preencha os campos
 						</h2>
-						<form class="form" action="">
+						<form id="cart-form" class="form" action="">
 							<input
 								type="text"
 								name="nome"
@@ -90,4 +91,5 @@
 			</div>
 		</section>
 	</body>
+	<script src="./script.js"></script>
 </html>
