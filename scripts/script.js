@@ -15,7 +15,7 @@ cartForm.addEventListener("submit", (e) => {
 	window.localStorage.setItem("email", email);
 	window.localStorage.setItem("ticketQuantity", ticketQuantity);
 
-	window.location.href = "after-sale.html";
+	window.location.href = "/pages/after-sale.html";
 });
 
 addTicket.addEventListener("click", (e) => {
